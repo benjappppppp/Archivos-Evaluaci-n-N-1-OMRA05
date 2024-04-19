@@ -1,0 +1,4 @@
+print("Evaluación N°1 Redes Avanzadas I")
+integrantes = ["Benjamin Abarca", "Benjamin Valdebenito"]
+for integrante in integrantes:
+    print(integrante)

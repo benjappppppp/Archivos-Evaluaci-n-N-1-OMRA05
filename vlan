@@ -1,0 +1,8 @@
+vlan = int(input("Ingrese el número de VLAN: "))
+
+if 1 <= vlan <= 1005:
+    print("El número de VLAN está en un rango normal.")
+elif 1006 <= vlan <= 4094:
+    print("El número de VLAN está en un rango extendido.")
+else:
+    print("El número de VLAN no está en ningún rango válido.")
